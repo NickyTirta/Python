@@ -1,5 +1,4 @@
 ## Soal 1: Python list and Slicing
-# List suhu dalam Celsius
 temperatures = [25, 28, 30, 22, 35, 40, 18, 24]
 
 # Tulis jawaban Anda di bawah ini
@@ -42,7 +41,6 @@ print("\n\n\n")
 
 ## Soal 3: NumPy Array & Aggregation
 import numpy as np
-
 scores = np.array([
     [80, 85, 90],
     [70, 60, 75],
@@ -71,7 +69,6 @@ print("\n\n\n")
 import pandas as pd
 import numpy as np
 
-# Data awal
 df_data = {
     'Nama': ['Andi', 'Budi', 'Caca', 'Dedi', 'Euis'],
     'Departemen': ['IT', 'HR', 'IT', 'Sales', 'Sales'],
