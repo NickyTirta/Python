@@ -147,7 +147,7 @@ Analisis Cluster & Interpretasi Hasil
 ```text
 Python/Data-Mining/UAS/
 │
-├── Laporan_README.md (Dokumen Laporan)
+├── README.md (Dokumen Laporan)
 ├── Jawaban_UAS_Data_Mining.ipynb (SourceCode Disertai Penjelasan)
 ├── marketing_campaign.csv (Dataset Mentah/Dataset Asli)
 └── images/
