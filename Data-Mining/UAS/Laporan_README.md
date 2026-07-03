@@ -92,37 +92,40 @@ Project ini bertujuan untuk:
 # 🔄 Workflow
 
 ```text
-Raw Dataset
-      │
-      ▼
-Exploratory Data Analysis
-      │
-      ▼
-Missing Value Handling
-      │
-      ▼
+Raw Dataset (Dataset Mentah)
+            │
+            ▼
+Exploratory Data Analysis (EDA)
+            │
+            ▼
+Missing Value Handling (Data Cleaning)
+            │
+            ▼
 Feature Engineering
-      │
-      ▼
-Encoding
-      │
-      ▼
-Standardization
-      │
-      ▼
-Elbow Method
-      │
-      ▼
+            │
+            ▼
+Penyederhanaan Kategori
+            │
+            ▼
+One-Hot Encoding
+            │
+            ▼
+Standardization (Standarisasi Data)
+            │
+            ▼
+Menentukan Jumlah Cluster (Elbow Method) 
+            │
+            ▼
 K-Means Clustering
-      │
-      ▼
-Silhouette Score
-      │
-      ▼
-PCA Visualization
-      │
-      ▼
-Cluster Analysis
+            │
+            ▼
+Silhouette Score (Evaluasi Clustering)
+            │
+            ▼
+PCA Visualization (Visualisasi Cluster)
+            │
+            ▼
+Analisis Cluster & Interpretasi Hasil
 ```
 
 ---
@@ -144,15 +147,15 @@ Cluster Analysis
 ```text
 Python/Data-Mining/UAS/
 │
-├── README.md
-├── Customer_Personality_Analysis.ipynb
-├── marketing_campaign.csv
+├── Laporan_README.md (Dokumen Laporan)
+├── Jawaban_UAS_Data_Mining.ipynb (SourceCode Disertai Penjelasan)
+├── marketing_campaign.csv (Dataset Mentah/Dataset Asli)
 └── images/
    ├── elbow_method.png
    ├── pca_cluster.png
-   ├── histogram_income.png
-   ├── boxplot_income.png
-   └── cluster_distribution.png
+   ├── distribusi_income.png
+   └──boxplot_income.png
+    
 ```
 
 ---
@@ -257,7 +260,7 @@ Jumlah Cluster Terbaik = 4
 
 > **Gambar Elbow Method**
 
-*(Tambahkan gambar di sini.)*
+*(Gambar)*
 
 ---
 
